@@ -6,10 +6,10 @@
 :host-context(.platform-linux) {
   --monospace-font-size: 1em !important;
   --monospace-font-family: "MonoLisa Regular", monospace !important;
-  --monospace-font-feature-settings: "liga" 0, "calt" 0, "ss13", "ss16" !important;
+  --monospace-font-feature-settings: "liga" 0, "calt" 0, "ss03", "ss16" !important;
   --source-code-font-size: 1em !important;
   --source-code-font-family: "MonoLisa Regular", monospace !important;
-  --source-code-font-feature-settings: "liga" 0, "calt" 0, "ss13", "ss16" !important;
+  --source-code-font-feature-settings: "liga" 0, "calt" 0, "ss03", "ss16" !important;
 }
 
 :host-context(.platform-linux) .monospace,
@@ -21,7 +21,7 @@
   font-feature-settings:
     "liga" 0,
     "calt" 0,
-    "ss13",
+    "ss03",
     "ss16" !important;
 }
 
@@ -32,7 +32,7 @@
   font-feature-settings:
     "liga" 0,
     "calt" 0,
-    "ss13",
+    "ss03",
     "ss16" !important;
 }
 
@@ -43,6 +43,6 @@
   font-feature-settings:
     "liga" 0,
     "calt" 0,
-    "ss13",
+    "ss03",
     "ss16" !important;
 }
